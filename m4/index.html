@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, mininum-scale=1,maxinum-scale=1,user-scalable=no">
+    <title>手机设备</title>
+    <style>
+        body {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>浏览器宽高：<span id="text"></span></p>
+    <p>设备的DPR：<span id="dpr"></span></p>
+    <p>设备的PPI：<span id=ppi></span></p>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+        $('#text').text(document.documentElement.clientWidth + ',' + document.documentElement.clientHeight);
+        $('#dpr').text(window.devicePixelRatio);
+        $('#ppi').text(Math.sqrt(750 * 750 + 1334 * 1334) / 4.7);
+    </script>
+</body>
+
+</html>
