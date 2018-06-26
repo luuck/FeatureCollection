@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex-wrap</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        .flex-container {
+            display: flex;
+            /* flex-wrap: wrap; 换行*/
+            /* flex-wrap: nowrap; 不换行*/
+            flex-wrap: wrap-reverse;
+            /*倒序且位置交换了*/
+        }
+        
+        .flex-item {
+            width: 150px;
+        }
+        
+        .flex-item:nth-child(1) {
+            background-color: yellow;
+        }
+        
+        .flex-item:nth-child(2) {
+            background-color: green;
+        }
+        
+        .flex-item:nth-child(3) {
+            background-color: pink;
+        }
+        
+        .flex-item:nth-child(4) {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item">A</div>
+        <div class="flex-item">B</div>
+        <div class="flex-item">C</div>
+        <div class="flex-item">D</div>
+    </div>
+</body>
+
+</html>

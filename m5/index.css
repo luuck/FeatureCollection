@@ -1,0 +1,10 @@
+.flex-container {
+    background-color: rebeccapurple;
+    padding: 10px;
+}
+
+.flex-item {
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+}

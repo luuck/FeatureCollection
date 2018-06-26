@@ -10,7 +10,11 @@
 移动端布局，div按比例布局，宽度为百分比，同时高度和宽度一样
 
 - m3 
-viewport调整
+viewport.js
+preload.js
+
+- m4 
+手机设备
 
 ## 其他
 - fastclick.js解决移动端点击事件反应慢问题
