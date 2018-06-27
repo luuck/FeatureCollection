@@ -20,7 +20,10 @@ preload.js
 flex弹性布局-study
 
 - m6
-响应式布局-study
+响应式布局（imooc登录）-study
+
+- m7
+不错的移动端布局-study
 
 ## 其他
 - fastclick.js解决移动端点击事件反应慢问题
