@@ -1,0 +1,19 @@
+.footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 54px;
+    display: flex;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footericon{
+    flex: 1;
+}
+
+.icon-a{
+    display: block;
+    margin: 8px auto;
+}

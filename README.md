@@ -16,7 +16,16 @@ preload.js
 - m4 
 手机设备
 
+- m5 
+flex弹性布局-study
+
+- m6
+响应式布局-study
+
 ## 其他
 - fastclick.js解决移动端点击事件反应慢问题
 [原文](https://www.cnblogs.com/jianzhixuan/p/6944960.html)
+
+- flex兼容样式
+[原文](https://github.com/lzxb/flex.css)
 
