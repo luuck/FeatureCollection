@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>基本演示</title>
+  </head>
+  <body>
+    <!-- 1、加载本地文件，速度快
+    <video src="../imooc.mp4" width="640px" autoplay controls/>
+      您的浏览器不支持video标签。
+    </video>
+    -->
+    <!-- 2、加载网络视频，速度慢
+    <video src="http://video.mukewang.com/mk.mp4" width="640px" autoplay controls/>
+      您的浏览器不支持video标签。
+    </video>
+    -->
+    <!-- 3、加载不存在的视频
+    <video src="http://www.notexist.com/notexist.mp4" autoplay controls/>
+      您的浏览器不支持video标签。
+    </video>
+    -->
+    <!-- 4、视频属性详解 -->
+    <video id="myVideo" controls width="640px" poster="../poster.jpg" />
+      <source src="http://video.mukewang.com/mk.mp4" type="video/mp4" />
+      <source src="../imooc.mp4" type="video/mp4" />
+      <source src="http://www.nottttttexist.com/notexist.mp4" type="video/mp4" />
+      <source src="http://video.mukewang.com/mk.mp4" type="video/mp4" />
+      您的浏览器不支持video标签。
+    </video>
+    <!-- 5、加载本地文件，速度快
+    <audio src="../imooc.wav" autoplay controls/>
+      您的浏览器不支持audio标签。
+    </audio>
+    -->
+    <!-- 6、加载不存在的音频
+    <audio src="http://www.notexist.com/notexist.mp3" autoplay controls/>
+      您的浏览器不支持audio标签。
+    </audio>
+    -->
+    <!-- 7、音频属性详解 
+    <audio id="myAudio" controls />
+      <source src="../imooc.mp3" type="audio/mp3" />
+      <source src="../imooc.ogg" type="audio/ogg" />
+      <source src="../imooc.wav" type="audio/wav" />
+      您的浏览器不支持audio标签。
+    </audio>-->
+  </body>
+</html>
