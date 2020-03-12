@@ -22,6 +22,13 @@ flex弹性布局-study
 - m6
 响应式布局-study
 
+- m9
+三栏布局
+
+- m10
+函数防抖，函数节流
+
+
 ## 其他
 - fastclick.js解决移动端点击事件反应慢问题
 [原文](https://www.cnblogs.com/jianzhixuan/p/6944960.html)

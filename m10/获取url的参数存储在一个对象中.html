@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // https://baijiahao.baidu.com/s?id=1583617694892288463&wfr=spider&for=pc
+        var obj = {};
+
+        function getUrlParams(url) {
+            // var reg = '/^?(\w)/';
+            var arr = url.split('?')[1].split('&');
+            console.log(arr);
+            arr.forEach((ele, index, arr) => {
+                // obj[]
+                console.log(index);
+                console.log(arr);
+                var a = ele.split('=')
+                obj[a[0]] = a[1];
+            });
+        }
+
+        getUrlParams('https://baijiahao.baidu.com/s?id=1583617694892288463&wfr=spider&for=pc');
+        console.log(obj);
+    </script>
+</body>
+
+</html>
